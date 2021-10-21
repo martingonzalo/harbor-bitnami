@@ -269,7 +269,7 @@ ingress:
 persistence:
   ## @param persistence.enabled Enable the data persistence or not
   ##
-  enabled: true
+  enabled: false
   ## Resource Policy
   ## @param persistence.resourcePolicy Setting it to `keep` to avoid removing PVCs during a helm delete operation. Leaving it empty will delete PVCs after the chart deleted
   ##
